@@ -1,4 +1,4 @@
-# MySQL_Create_WP_DB_-_User
+# MySQL_Create_WP_DB_User
 
 # database operations for WP 
 shell> mysql -u root -p
