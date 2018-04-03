@@ -1,0 +1,11 @@
+# MySQL_Create_WP_DB_-_User
+
+# database operations for WP 
+shell> mysql -u root -p
+"Your MySQL root password"
+
+mysql> CREATE DATABASE wp_dbname;
+mysql> CREATE USER wp_username@localhost IDENTIFIED BY 'user-password';
+mysql> GRANT ALL PRIVILEGES ON wp_dbname.* TO wp_username@localhost;
+mysql> FLUSH PRIVILEGES;
+mysql> exit
